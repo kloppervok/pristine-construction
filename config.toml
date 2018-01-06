@@ -34,8 +34,8 @@ googleAnalytics = ""
 
   # Navigation Section
   [params.navigation]
-    title = "Forty"
-    subtitle = "By HTML5 Up"
+    title = "Pristine"
+    subtitle = "Development Business Consulting"
     menu = "Menu"
     # Optional logo as brand stored in img/
     # logo = "logo.png"
@@ -78,21 +78,21 @@ googleAnalytics = ""
   [params.banner]
     # To change the background image on the homepage banner, replace 'banner.jpg' in
     # the 'static/img' folder.
-    title = "Hi, my name is Forty"
-    subtitle = "A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP\nAND RELEASED UNDER THE CREATIVE COMMONS."
-    buttonText = "Get Started"
+    title = "Pristine Development Business Consulting"
+    subtitle = "A company dedicated to provide high quality professional services to governments, international organizations and business firms."
+    buttonText = "UNDER CONSTRUCTION"
 
 
   # Tiles Section
   [params.tiles]
-    enable = true
+    enable = false
     # Display your showcases here.
-    
+
     [[params.tiles.showcase]]
-      title = "Aliquam"
+      title = "Who We Are"
       subtitle = "Ipsum Dolor Sit Amet"
       image = "pic01.jpg"
-      url = "blogs/aliquam"
+      url = "identity/who"
 
     [[params.tiles.showcase]]
       title = "Tempus"
@@ -135,14 +135,10 @@ googleAnalytics = ""
   # Section Type Two
   [params.two]
     enable = true
-    title = "Massa libero"
-    subtitle = """Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. 
-    Mauris aliquet magna magna sed nunc rhoncus pharetra. 
-    Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. 
-    Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero.
-    Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus."""
+    title = "Who We Are"
+    subtitle = """Pristine Development Business Consulting was founded in Silver Spring, MD, USA. The company is dedicated to provide high quality professional services to governments, international organizations and business firms. We are a team of seasoned experts with diverse professional backgrounds. Besides academic achievements, our team is equipped with extensive international development experience. In the past, our team has worked with various international organizations including, the World Bank, the African Development Bank, the Inter-American Development Bank, USAID, EU, African Union , WHO, WTO and the Extractive Industries Transparency Initiative . In addition, we provided professional services to a governments of various countries in Africa and Asia."""
     buttonText = "Get Started"
-    url = "blogs"
+    url = "#"
 
 
   # Contact section
@@ -200,7 +196,7 @@ googleAnalytics = ""
       icon = "fa-instagram"
       url= "https://www.instagram.com"
       label = "Instagram"
-    
+
     [[params.footer.social]]
       icon = "fa-github"
       url= "https://www.github.com"
